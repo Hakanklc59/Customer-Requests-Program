@@ -1,0 +1,15 @@
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\bin\Release\Sikayet.exe.config
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\bin\Release\Sikayet.exe
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\bin\Release\Sikayet.pdb
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\bin\Release\EntityFramework.dll
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\bin\Release\EntityFramework.xml
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\obj\Release\Sikayet.Form1.resources
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\obj\Release\Sikayet.Properties.Resources.resources
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\obj\Release\Sikayet.updateForm.resources
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\obj\Release\Sikayet.csproj.GenerateResource.cache
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\obj\Release\Sikayet.csproj.CoreCompileInputs.cache
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\obj\Release\Sikayet.csproj.CopyComplete
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\obj\Release\Sikayet.exe
+C:\Users\ATIAARGE\Desktop\Sikayet\Sikayet\obj\Release\Sikayet.pdb

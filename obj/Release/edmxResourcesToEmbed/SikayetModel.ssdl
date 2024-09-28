@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MusteriSikayetModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Sikayet_Tablo">
+    <Key>
+      <PropertyRef Name="Sikayet_Id" />
+    </Key>
+    <Property Name="Sikayet_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Firma_Adi" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Firma_Personel" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Sikayet_Turu" Type="nvarchar" MaxLength="100" />
+    <Property Name="Sikayet_Aciklamasi" Type="nvarchar" MaxLength="4000" />
+    <Property Name="Tel_No" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sirket_Eposta" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cozum_Not" Type="nvarchar" MaxLength="300" />
+    <Property Name="Sikayet_Olusturan" Type="nvarchar" MaxLength="300" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="MusteriSikayetModelStoreContainer">
+    <EntitySet Name="Sikayet_Tablo" EntityType="Self.Sikayet_Tablo" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

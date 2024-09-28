@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MusteriSikayetModelStoreContainer" CdmEntityContainer="MusteriSikayetEntities">
+    <EntitySetMapping Name="Sikayet_Tablo">
+      <EntityTypeMapping TypeName="MusteriSikayetModel.Sikayet_Tablo">
+        <MappingFragment StoreEntitySet="Sikayet_Tablo">
+          <ScalarProperty Name="Istek_Fotografi" ColumnName="Istek_Fotografi" />
+          <ScalarProperty Name="Bitis_Tarihi" ColumnName="Bitis_Tarihi" />
+          <ScalarProperty Name="Baslangic_Tarihi" ColumnName="Baslangic_Tarihi" />
+          <ScalarProperty Name="Istek_Durumu" ColumnName="Istek_Durumu" />
+          <ScalarProperty Name="Sikayet_Id" ColumnName="Sikayet_Id" />
+          <ScalarProperty Name="Firma_Adi" ColumnName="Firma_Adi" />
+          <ScalarProperty Name="Firma_Personel" ColumnName="Firma_Personel" />
+          <ScalarProperty Name="Sikayet_Turu" ColumnName="Sikayet_Turu" />
+          <ScalarProperty Name="Sikayet_Aciklamasi" ColumnName="Sikayet_Aciklamasi" />
+          <ScalarProperty Name="Tel_No" ColumnName="Tel_No" />
+          <ScalarProperty Name="Sirket_Eposta" ColumnName="Sirket_Eposta" />
+          <ScalarProperty Name="Cozum_Not" ColumnName="Cozum_Not" />
+          <ScalarProperty Name="Sikayet_Olusturan" ColumnName="Sikayet_Olusturan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SilinenKayitlar">
+      <EntityTypeMapping TypeName="MusteriSikayetModel.SilinenKayitlar">
+        <MappingFragment StoreEntitySet="SilinenKayitlar">
+          <ScalarProperty Name="Istek_Fotografi" ColumnName="Istek_Fotografi" />
+          <ScalarProperty Name="Bitis_Tarihi" ColumnName="Bitis_Tarihi" />
+          <ScalarProperty Name="Baslangic_Tarihi" ColumnName="Baslangic_Tarihi" />
+          <ScalarProperty Name="Istek_Durumu" ColumnName="Istek_Durumu" />
+          <ScalarProperty Name="Sikayet_Olusturan" ColumnName="Sikayet_Olusturan" />
+          <ScalarProperty Name="Sikayet_Turu" ColumnName="Sikayet_Turu" />
+          <ScalarProperty Name="Cozum_Not" ColumnName="Cozum_Not" />
+          <ScalarProperty Name="Sirket_Eposta" ColumnName="Sirket_Eposta" />
+          <ScalarProperty Name="Tel_No" ColumnName="Tel_No" />
+          <ScalarProperty Name="Sikayet_Aciklamasi" ColumnName="Sikayet_Aciklamasi" />
+          <ScalarProperty Name="Firma_Personel" ColumnName="Firma_Personel" />
+          <ScalarProperty Name="Firma_Adi" ColumnName="Firma_Adi" />
+          <ScalarProperty Name="Sikayet_Id" ColumnName="Sikayet_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Userss">
+      <EntityTypeMapping TypeName="MusteriSikayetModel.Userss">
+        <MappingFragment StoreEntitySet="Userss">
+          <ScalarProperty Name="rol" ColumnName="rol" />
+          <ScalarProperty Name="sifre" ColumnName="sifre" />
+          <ScalarProperty Name="kullaniciadi" ColumnName="kullaniciadi" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

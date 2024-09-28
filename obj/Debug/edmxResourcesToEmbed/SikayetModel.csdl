@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MusteriSikayetModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Sikayet_Tablo">
+    <Key>
+      <PropertyRef Name="Sikayet_Id" />
+    </Key>
+    <Property Name="Sikayet_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Firma_Adi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Firma_Personel" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sikayet_Turu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sikayet_Aciklamasi" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="Tel_No" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sirket_Eposta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cozum_Not" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Sikayet_Olusturan" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Istek_Durumu" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Baslangic_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Bitis_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Istek_Fotografi" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="MusteriSikayetEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Sikayet_Tablo" EntityType="Self.Sikayet_Tablo" />
+    <EntitySet Name="SilinenKayitlar" EntityType="MusteriSikayetModel.SilinenKayitlar" />
+    <EntitySet Name="Userss" EntityType="MusteriSikayetModel.Userss" />
+  </EntityContainer>
+  <EntityType Name="SilinenKayitlar">
+    <Key>
+      <PropertyRef Name="Sikayet_Id" />
+    </Key>
+    <Property Name="Sikayet_Id" Type="Int32" Nullable="false" />
+    <Property Name="Firma_Adi" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Firma_Personel" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Sikayet_Aciklamasi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Tel_No" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sirket_Eposta" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Cozum_Not" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Sikayet_Turu" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Sikayet_Olusturan" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Istek_Durumu" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Baslangic_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Bitis_Tarihi" Type="DateTime" Precision="3" />
+    <Property Name="Istek_Fotografi" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Userss">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="kullaniciadi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rol" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MusteriSikayetModelStoreContainer" CdmEntityContainer="MusteriSikayetEntities">
+    <EntitySetMapping Name="Sikayet_Tablo">
+      <EntityTypeMapping TypeName="MusteriSikayetModel.Sikayet_Tablo">
+        <MappingFragment StoreEntitySet="Sikayet_Tablo">
+          <ScalarProperty Name="Sikayet_Id" ColumnName="Sikayet_Id" />
+          <ScalarProperty Name="Firma_Adi" ColumnName="Firma_Adi" />
+          <ScalarProperty Name="Firma_Personel" ColumnName="Firma_Personel" />
+          <ScalarProperty Name="Sikayet_Turu" ColumnName="Sikayet_Turu" />
+          <ScalarProperty Name="Sikayet_Aciklamasi" ColumnName="Sikayet_Aciklamasi" />
+          <ScalarProperty Name="Tel_No" ColumnName="Tel_No" />
+          <ScalarProperty Name="Sirket_Eposta" ColumnName="Sirket_Eposta" />
+          <ScalarProperty Name="Cozum_Not" ColumnName="Cozum_Not" />
+          <ScalarProperty Name="Sikayet_Olusturan" ColumnName="Sikayet_Olusturan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
